@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="SureGrip">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="/assets/styles/main.css"/>
+  <link rel="stylesheet" type="text/css" href="/bower_components/angular-carousel/dist/angular-carousel.css"/>
+
+  <script src="/bower_components/angular/angular.js" type="text/javascript"></script>
+  <script src="/bower_components/angular-carousel/dist/angular-carousel.js" type="text/javascript"></script>
+  <script src="/bower_components/angular-touch/angular-touch.js" type="text/javascript"></script>
+  <script src="/Scripts/main.js" type="text/javascript"></script>
+
+  <title>Sure Grip</title>
+</head>
+<body ng-controller="appCtrl">
+<div class="container">
+  <div class="nav">
+    <ul>
+      <div class="logo">
+        <img src="/assets/images/fllogo4.png"/>
+        <h1>SURE GRIP</h1>
+        <p>Innovative Driving Solutions</p>
+      </div>
+      <li><a href="#">Tech Login</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Rehabilitation Locator</a></li>
+      <li><a href="#">Dealer Locator</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#"><img src="/assets/images/search.png"/></a></li>
+    </ul>
+  </div>
+</div>
+
+<ul rn-carousel rn-carousel-auto-slide class="carry">
+  <li><img src="/assets/images/banner1.png"/></li>
+  <li><img src="/assets/images/banner2.png"/></li>
+  <li><img src="/assets/images/banner3.png"/></li>
+  <li><img src="/assets/images/banner4.png"/></li>
+</ul>
+
+<img class="shadow" src="/assets/images/shadow-4.png"/>
+
+</body>
+</html>
